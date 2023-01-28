@@ -1,4 +1,14 @@
-/* Tailwind Directives */
+/* Base styles */
 @tailwind base;
+
+/* Component styles */
 @tailwind components;
+
+/* Utility styles */
 @tailwind utilities;
+
+@layer utilities {
+    .page-width {
+        @apply mx-8 sm:mx-16 md:max-w-xl lg:max-w-3xl xl:max-w-5xl md:mx-auto;
+    }
+}

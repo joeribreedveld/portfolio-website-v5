@@ -3,7 +3,7 @@ import { type NextPage } from "next";
 
 // Functions
 const Home: NextPage = () => {
-  return <div>Home</div>;
+  return <div className="page-width bg-gray-100">Home</div>;
 };
 
 // Exports
