@@ -10,7 +10,7 @@ const AppLayout = ({ children }: IAppLayoutProps) => {
       <header>
         <Navbar />
       </header>
-      <main>{children}</main>
+      <main className="min-h-screen">{children}</main>
       <Footer />
     </>
   );

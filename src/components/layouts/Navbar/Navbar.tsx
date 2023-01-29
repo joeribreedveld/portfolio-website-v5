@@ -6,7 +6,7 @@ import { FiMenu } from "react-icons/fi";
 // Functions
 const Navbar = () => {
   return (
-    <nav className="default-shadow flex items-center justify-between bg-white px-8 py-4 md:px-16">
+    <nav className="default-shadow fixed flex w-full items-center justify-between bg-white px-8 py-4 md:px-16">
       <section>
         <Link href="/">
           <h3 className="hidden md:block">Joeri Breedveld</h3>

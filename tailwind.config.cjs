@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         primary: ["Inter", "sans-serif"],
       },
+      colors: {
+        bgSecondary: "#FAFAFA",
+      },
     },
   },
   plugins: [],
