@@ -1,10 +1,11 @@
 // Imports
 import Link from "next/link";
+import Button from "../../common/Button/Button";
 
 // Functions
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between bg-gray-100 py-4 px-16">
+    <nav className="default-shadow flex items-center justify-between bg-white py-4 px-16">
       <section>
         <Link href="/">
           <h3>Joeri Breedveld</h3>
@@ -20,7 +21,7 @@ const Navbar = () => {
         </ul>
       </section>
       <section>
-        <div>Contact Button</div>
+        <Button>Contact</Button>
       </section>
     </nav>
   );

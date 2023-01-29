@@ -25,10 +25,28 @@
     h1 {
         @apply text-4xl font-bold
     }
+
+    body {
+        @apply font-primary
+    }
 }
 
 /* Component styles */
 @tailwind components;
+
+@layer components {
+    .btn {
+        @apply px-8 py-3 default-rounding
+    }
+
+    .btn-primary {
+        @apply bg-black text-white font-bold
+    }
+
+    .btn-secondary {
+        @apply border border-black
+    }
+}
 
 /* Utility styles */
 @tailwind utilities;
@@ -36,5 +54,13 @@
 @layer utilities {
     .page-width {
         @apply mx-8 sm:mx-16 md:max-w-xl lg:max-w-3xl xl:max-w-5xl md:mx-auto;
+    }
+
+    .default-rounding {
+        @apply rounded-[0.25rem];
+    }
+
+    .default-shadow {
+        @apply shadow-[0_0_1rem_0_rgba(0,0,0,0.1)];
     }
 }
