@@ -17,7 +17,7 @@ const Button = ({
   target,
   rel,
 }: IButtonProps) => {
-  return <button className="btn btn-primary">{children}</button>;
+  return <button className={`btn btn-primary ${className}`}>{children}</button>;
 };
 
 // Exports
