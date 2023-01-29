@@ -1,12 +1,13 @@
 // Imports
 import { IAppLayoutProps } from "./AppLayout.types";
+import Navbar from "../Navbar/Navbar";
 
 // Functions
 const AppLayout = ({ children }: IAppLayoutProps) => {
   return (
     <>
       <header>
-        <div>Header</div>
+        <Navbar />
       </header>
       <main>{children}</main>
       <footer>
