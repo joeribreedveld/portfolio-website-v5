@@ -1,10 +1,16 @@
 // Imports
 import { type NextPage } from "next";
 import Hero from "../components/sections/Hero";
+import About from "../components/sections/About";
 
 // Functions
 const Home: NextPage = () => {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <About />
+    </>
+  );
 };
 
 // Exports
