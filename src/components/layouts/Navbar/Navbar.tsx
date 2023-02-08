@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Button from "../../common/Button/Button";
 import { FiMenu } from "react-icons/fi";
+import { INavbarListItemProps } from "./Navbar.types";
 
 // Functions
 const Navbar = () => {

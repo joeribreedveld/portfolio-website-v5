@@ -5,3 +5,4 @@ interface INavbarListItemProps {
 }
 
 // Exports
+export type { INavbarListItemProps };
