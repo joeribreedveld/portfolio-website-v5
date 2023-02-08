@@ -10,7 +10,7 @@ interface IAboutListItemProps {
 // Functions
 const About = () => {
   return (
-    <section className="flex bg-bgSecondary py-32">
+    <section className="flex py-32">
       <div className="page-width flex gap-16">
         <section className="w-1/3">
           <div className="default-rounding default-shadow relative aspect-square w-full overflow-hidden">
@@ -26,11 +26,11 @@ const About = () => {
           <section className="flex flex-col gap-4">
             <h2>Over mij</h2>
             <p>
-              Hallo, mijn naam is Joeri Breedveld, ik ben 18 jaar oud en woon in
-              Amsterdam. Ik programmeer sinds 2021 en ik studeer Software
+              Hallo, mijn naam is Joeri Breedveld. Ik ben 18 jaar oud en woon in
+              Amsterdam. Ik programmeer sinds 2021 en studeer Software
               Development aan het Mediacollege Amsterdam. In mijn vrije tijd
               werk ik veel aan kleine projecten. Ook volg ik veel tutorials op
-              Youtube en leer ik meer over programmeren. Ik ben een doorzetter;
+              YouTube en leer ik meer over programmeren. Ik ben een doorzetter;
               ik ga door met zoeken totdat ik de oplossing heb gevonden en ik
               maak elke dag tijd vrij om iets nieuws te leren. Ook werk ik erg
               gestructureerd.
