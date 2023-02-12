@@ -1,5 +1,5 @@
 // Imports
-import Button from "../common/Button/Button";
+import Button from "../../common/Button/Button";
 
 // Functions
 const Hero = () => {

@@ -1,16 +1,12 @@
 // Imports
 import { BiRightArrow } from "react-icons/bi";
 import Image from "next/image";
-
-// Interfaces
-interface IAboutListItemProps {
-  title: string;
-}
+import { IAboutListItemProps } from "./Hero.types";
 
 // Functions
 const About = () => {
   return (
-    <section className="flex py-32">
+    <section className="section-py flex">
       <div className="page-width flex gap-16">
         <section className="w-1/3">
           <div className="default-rounding default-shadow relative aspect-square w-full overflow-hidden">

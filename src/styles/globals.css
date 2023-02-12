@@ -66,4 +66,8 @@
     .default-shadow {
         @apply shadow-[0_5px_10px_0_rgba(0,0,0,0.07)];
     }
+
+    .section-py {
+        @apply py-32
+    }
 }
