@@ -20,16 +20,15 @@ const About = () => {
         </section>
         <section className="page-width flex w-2/3 flex-col gap-8">
           <section className="flex flex-col gap-4">
-            <h2>Over mij</h2>
+            <h2>About</h2>
             <p>
-              Hallo, mijn naam is Joeri Breedveld. Ik ben 18 jaar oud en woon in
-              Amsterdam. Ik programmeer sinds 2021 en studeer Software
-              Development aan het Mediacollege Amsterdam. In mijn vrije tijd
-              werk ik veel aan kleine projecten. Ook volg ik veel tutorials op
-              YouTube en leer ik meer over programmeren. Ik ben een doorzetter;
-              ik ga door met zoeken totdat ik de oplossing heb gevonden en ik
-              maak elke dag tijd vrij om iets nieuws te leren. Ook werk ik erg
-              gestructureerd.
+              Hello, my name is Joeri Breedveld. I am 18 years old and live in
+              Amsterdam. I have been programming since 2021 and am studying
+              Software Development at Mediacollege Amsterdam. In my free time, I
+              work on small projects a lot. I also follow many tutorials on
+              YouTube and learn more about programming. I am a persevering
+              person; I keep searching until I find the solution and I make time
+              every day to learn something new. I also work very structured.
             </p>
           </section>
           <section>

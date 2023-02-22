@@ -4,7 +4,7 @@ import Button from "../../common/Button/Button";
 // Functions
 const Hero = () => {
   return (
-    <section className="section-py flex min-h-screen w-full flex-col justify-center gap-12">
+    <section className="section-py flex min-h-screen w-full flex-col justify-center gap-12 bg-bgSecondary">
       <section className="page-width flex flex-col gap-4">
         <h1>Frontend Developer</h1>
         <p>

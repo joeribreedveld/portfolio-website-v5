@@ -3,7 +3,7 @@ interface IProjectProps {
   emoji: string;
   title: string;
   description: string;
-  languages: string[];
+  tags: string[];
   date: string;
   link: string;
   github: string;

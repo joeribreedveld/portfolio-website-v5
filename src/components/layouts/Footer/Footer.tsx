@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="flex flex-col gap-12 py-16">
       <section className="page-width flex flex-col items-center justify-center gap-8">
-        <p className="text-sm">Designed & Built by Joeri Breedveld</p>
+        <p>Designed & Built by Joeri Breedveld</p>
         <section className="flex gap-6 text-gray-500">
           <FiGithub size={24} />
           <FiLinkedin size={24} />
