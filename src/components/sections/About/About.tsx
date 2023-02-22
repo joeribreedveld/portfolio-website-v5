@@ -1,14 +1,14 @@
 // Imports
 import { BiRightArrow } from "react-icons/bi";
 import Image from "next/image";
-import { IAboutListItemProps } from "./Hero.types";
+import { IAboutListItemProps } from "./About.types";
 
 // Functions
 const About = () => {
   return (
     <section className="section-py flex">
-      <div className="page-width flex gap-16">
-        <section className="w-1/3">
+      <div className="page-width flex flex-col gap-16 md:flex-row">
+        <section className="md:w-1/3">
           <div className="default-rounding default-shadow relative z-[-1] aspect-square w-full overflow-hidden">
             <Image
               src="/images/about.jpg"
@@ -18,7 +18,7 @@ const About = () => {
             />
           </div>
         </section>
-        <section className="page-width flex w-2/3 flex-col gap-8">
+        <section className="flex flex-col gap-8 md:w-2/3">
           <section className="flex flex-col gap-4">
             <h2>About</h2>
             <p>
@@ -32,7 +32,7 @@ const About = () => {
             </p>
           </section>
           <section>
-            <ul className="grid grid-cols-3 gap-4">
+            <ul className="grid grid-cols-2 gap-4 md:grid-cols-3">
               <AboutListItem title="TailwindCSS" />
               <AboutListItem title="React.js" />
               <AboutListItem title="TypeScript" />

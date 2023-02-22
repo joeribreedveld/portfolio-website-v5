@@ -14,7 +14,7 @@ const Projects = () => {
           </Link>
         </section>
         <section className="w-full">
-          <ul className="grid grid-cols-3 gap-6">
+          <ul className="grid gap-6 md:grid-cols-3">
             <Project
               title="Project Title"
               description="Project description lorem ipsum"

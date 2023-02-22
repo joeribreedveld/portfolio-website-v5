@@ -56,7 +56,7 @@
 
 @layer utilities {
     .page-width {
-        @apply mx-8 sm:mx-16 md:max-w-xl lg:max-w-3xl xl:max-w-5xl md:mx-auto w-full;
+        @apply px-8 sm:px-16 md:max-w-xl lg:max-w-3xl xl:max-w-5xl md:mx-auto w-full;
     }
 
     .default-rounding {
@@ -68,6 +68,6 @@
     }
 
     .section-py {
-        @apply py-32
+        @apply md:py-32 py-24
     }
 }
