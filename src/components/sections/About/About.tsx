@@ -9,7 +9,7 @@ const About = () => {
     <section className="section-py flex">
       <div className="page-width flex gap-16">
         <section className="w-1/3">
-          <div className="default-rounding default-shadow relative aspect-square w-full overflow-hidden">
+          <div className="default-rounding default-shadow relative z-[-1] aspect-square w-full overflow-hidden">
             <Image
               src="/images/about.jpg"
               fill
