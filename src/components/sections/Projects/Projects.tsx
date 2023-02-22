@@ -5,7 +5,7 @@ import { IProjectProps } from "./Projects.types";
 // Functions
 const Projects = () => {
   return (
-    <section className="section-py flex bg-bgSecondary">
+    <section className="section-py flex">
       <div className="page-width flex w-full flex-col items-center gap-16">
         <section className="flex flex-col items-center gap-6">
           <h2>Mijn projecten</h2>
