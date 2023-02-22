@@ -56,11 +56,11 @@
 
 @layer utilities {
     .page-width {
-        @apply mx-8 sm:mx-16 md:max-w-xl lg:max-w-3xl xl:max-w-5xl md:mx-auto;
+        @apply mx-8 sm:mx-16 md:max-w-xl lg:max-w-3xl xl:max-w-5xl md:mx-auto w-full;
     }
 
     .default-rounding {
-        @apply rounded-[0];
+        @apply rounded-[0.125rem];
     }
 
     .default-shadow {
