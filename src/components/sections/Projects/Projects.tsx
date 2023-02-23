@@ -88,8 +88,8 @@ const Project = ({
   website,
 }: IProjectProps) => {
   return (
-    <li className="relative aspect-square w-full">
-      <Image src={"/images/about.jpg"} layout="fill" alt="wa" />
+    <li className="relative z-[-1] aspect-square w-full">
+      <Image src={"/images/about.jpg"} layout="fill" alt="Template image" />
     </li>
   );
 };
