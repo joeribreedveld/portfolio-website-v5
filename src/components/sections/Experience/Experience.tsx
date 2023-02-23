@@ -1,11 +1,16 @@
 // Imports
 
+import Link from "next/link";
+
 // Functions
 const Experience = () => {
   return (
-    <section className="section-py flex flex-col gap-8">
-      <section className="page-width">
+    <section className="section-py flex flex-col gap-16">
+      <section className="page-width flex flex-col gap-2">
         <h2>Experience</h2>
+        <Link href="/" className="underline">
+          View LinkedIn
+        </Link>
       </section>
       <section className="page-width flex gap-32">
         <section className="flex flex-col gap-6">

@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="section-py flex">
       <div className="page-width flex flex-col gap-16 md:flex-row">
-        <section className="flex flex-col gap-12 md:w-2/3">
+        <section className="flex flex-col gap-16 md:w-2/3">
           <section className="flex flex-col gap-8">
             <h2>About</h2>
             <p>
