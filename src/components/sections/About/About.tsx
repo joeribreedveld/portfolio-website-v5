@@ -8,18 +8,8 @@ const About = () => {
   return (
     <section className="section-py flex">
       <div className="page-width flex flex-col gap-16 md:flex-row">
-        <section className="md:w-1/3">
-          <div className="default-rounding default-shadow relative z-[-1] aspect-square w-full overflow-hidden">
-            <Image
-              src="/images/about.jpg"
-              fill
-              alt="About image of Joeri Breedveld"
-              style={{ objectFit: "cover" }}
-            />
-          </div>
-        </section>
-        <section className="flex flex-col gap-8 md:w-2/3">
-          <section className="flex flex-col gap-4">
+        <section className="flex flex-col gap-12 md:w-2/3">
+          <section className="flex flex-col gap-8">
             <h2>About</h2>
             <p>
               Hello, my name is Joeri Breedveld. I am 18 years old and live in
@@ -31,28 +21,9 @@ const About = () => {
               every day to learn something new. I also work very structured.
             </p>
           </section>
-          <section>
-            <ul className="grid grid-cols-2 gap-4 md:grid-cols-3">
-              <AboutListItem title="TailwindCSS" />
-              <AboutListItem title="React.js" />
-              <AboutListItem title="TypeScript" />
-              <AboutListItem title="Redux" />
-              <AboutListItem title="Next.js" />
-              <AboutListItem title="React Native" />
-            </ul>
-          </section>
         </section>
       </div>
     </section>
-  );
-};
-
-const AboutListItem = ({ title }: IAboutListItemProps) => {
-  return (
-    <li className="flex items-center gap-4">
-      <BiRightArrow size={16} color="purple" />
-      <p>{title}</p>
-    </li>
   );
 };
 

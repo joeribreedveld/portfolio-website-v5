@@ -1,20 +1,21 @@
 // Imports
 import Link from "next/link";
+import Image from "next/image";
 import { IProjectProps } from "./Projects.types";
 
 // Functions
 const Projects = () => {
   return (
-    <section className="section-py flex bg-bgSecondary">
-      <div className="page-width flex w-full flex-col items-center gap-16">
-        <section className="flex flex-col items-center gap-6">
+    <section className="section-py flex">
+      <div className="page-width flex w-full flex-col gap-16">
+        <section className="flex flex-col gap-6">
           <h2>Projects</h2>
           <Link className="underline" href="/projects">
             View project archive
           </Link>
         </section>
         <section className="w-full">
-          <ul className="grid gap-6 md:grid-cols-3">
+          <ul className="grid gap-4 md:grid-cols-3">
             <Project
               title="Project Title"
               description="Project description lorem ipsum"
@@ -62,7 +63,7 @@ const Projects = () => {
             />
             <Project
               title="Project Title"
-              description="Project description lorem ipsum"
+              description="Project description awdawdawdawdawlorem ipsum"
               tags={["tag1", "tag2"]}
               date="2021-01-01"
               link="https://example.com"
@@ -87,30 +88,8 @@ const Project = ({
   website,
 }: IProjectProps) => {
   return (
-    <li>
-      <article className="default-shadow bg-white p-6">
-        <section>
-          <h4>{title}</h4>
-          <p className="text-gray-500">{description}</p>
-        </section>
-        <section>
-          <ul>
-            <li>
-              <ul className="flex flex-wrap gap-4">
-                {tags.map((tag) => (
-                  <li>{tag}</li>
-                ))}
-              </ul>
-            </li>
-            <li>
-              <p>{date}</p>
-            </li>
-          </ul>
-        </section>
-        <Link href="/" className="underline">
-          More information
-        </Link>
-      </article>
+    <li className="relative aspect-square w-full">
+      <Image src={"/images/about.jpg"} layout="fill" alt="wa" />
     </li>
   );
 };

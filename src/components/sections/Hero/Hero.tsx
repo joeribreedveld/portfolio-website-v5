@@ -1,10 +1,11 @@
 // Imports
 import Button from "../../common/Button/Button";
+import Link from "next/link";
 
 // Functions
 const Hero = () => {
   return (
-    <section className="section-py flex min-h-screen w-full flex-col justify-center gap-12 bg-bgSecondary">
+    <section className="section-py flex min-h-screen w-full flex-col justify-center gap-8">
       <section className="page-width flex flex-col gap-4">
         <h1>Frontend Developer</h1>
         <p>
@@ -13,7 +14,9 @@ const Hero = () => {
         </p>
       </section>
       <section className="page-width">
-        <Button variant="secondary">Contact</Button>
+        <Link href="/" className="underline">
+          Contact
+        </Link>
       </section>
     </section>
   );
