@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ["Inter", "sans-serif"],
+        secondary: ["Poppins", "sans-serif"],
       },
       colors: {
         bgSecondary: "#FAFAFA",

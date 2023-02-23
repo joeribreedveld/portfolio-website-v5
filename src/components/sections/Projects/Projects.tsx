@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="page-width flex w-full flex-col gap-16">
         <section className="flex flex-col gap-4">
           <h2>Projects</h2>
-          <Link className="underline" href="/projects">
+          <Link className="text-gray-500 underline" href="/projects">
             View project archive
           </Link>
         </section>

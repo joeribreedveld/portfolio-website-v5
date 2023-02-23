@@ -6,9 +6,9 @@ import Link from "next/link";
 const Experience = () => {
   return (
     <section className="section-py flex flex-col gap-16">
-      <section className="page-width flex flex-col gap-2">
+      <section className="page-width flex flex-col gap-4">
         <h2>Experience</h2>
-        <Link href="/" className="underline">
+        <Link href="/" className="text-gray-500 underline">
           View LinkedIn
         </Link>
       </section>
