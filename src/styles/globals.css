@@ -6,27 +6,27 @@
 
 @layer base {
     h6 {
-        @apply text-sm font-medium font-secondary
+        @apply text-sm font-medium
     }
 
     h5 {
-        @apply text-base font-medium font-secondary
+        @apply text-base font-medium
     }
 
     h4 {
-        @apply text-lg font-semibold font-secondary
+        @apply text-lg font-semibold
     }
 
     h3 {
-        @apply text-xl font-semibold font-secondary
+        @apply text-xl font-semibold
     }
 
     h2 {
-        @apply text-2xl font-semibold font-secondary
+        @apply text-2xl font-semibold
     }
 
     h1 {
-        @apply text-4xl font-bold font-secondary
+        @apply text-4xl font-bold
     }
 
     body {

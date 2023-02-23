@@ -8,7 +8,7 @@ module.exports = {
         secondary: ["Poppins", "sans-serif"],
       },
       colors: {
-        bgSecondary: "#FAFAFA",
+        bgSecondary: "#FBFBFB",
       },
     },
   },

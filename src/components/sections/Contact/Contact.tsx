@@ -4,7 +4,7 @@ import Link from "next/link";
 // Functions
 const Contact = () => {
   return (
-    <section className="section-py flex flex-col gap-8">
+    <section className="section-py flex flex-col gap-8 bg-bgSecondary">
       <section className="page-width">
         <h2>Contact</h2>
       </section>

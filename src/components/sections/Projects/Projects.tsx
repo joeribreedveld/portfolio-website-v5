@@ -6,7 +6,7 @@ import { IProjectProps } from "./Projects.types";
 // Functions
 const Projects = () => {
   return (
-    <section className="section-py flex">
+    <section className="section-py flex bg-bgSecondary">
       <div className="page-width flex w-full flex-col gap-16">
         <section className="flex flex-col gap-4">
           <h2>Projects</h2>
@@ -88,7 +88,7 @@ const Project = ({
   website,
 }: IProjectProps) => {
   return (
-    <li className="relative z-[-1] aspect-square w-full">
+    <li className="relative aspect-square w-full">
       <Image src={"/images/about.jpg"} layout="fill" alt="Template image" />
     </li>
   );
