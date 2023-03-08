@@ -1,6 +1,5 @@
 // Imports
-import Button from "../../common/Button/Button";
-import Link from "next/link";
+import CustomLink from "../../common/CustomLink/CustomLink";
 
 // Functions
 const Hero = () => {
@@ -18,9 +17,9 @@ const Hero = () => {
             I like to build clean and structured websites for the ultimate user
             experience.
           </p>
-        </section>
-        <section className="page-width">
-          <Link href="/contact">Get to know me</Link>
+          <CustomLink href="/contact" variant="arrow">
+            Get to know me
+          </CustomLink>
         </section>
       </section>
     </div>
