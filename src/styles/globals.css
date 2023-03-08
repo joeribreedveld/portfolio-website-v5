@@ -9,7 +9,7 @@
         @apply text-sm
     }
 
-    h5 {
+    h5 {    
         @apply text-base
     }
 
@@ -57,6 +57,10 @@
 @layer utilities {
     .page-width {
         @apply px-4 sm:px-16 md:max-w-xl lg:max-w-3xl xl:max-w-5xl md:mx-auto w-full;
+    }
+
+    .navbar-width {
+        @apply px-4 sm:px-16 md:px-32 lg:px-64 xl:px-96;
     }
 
     .default-rounding {

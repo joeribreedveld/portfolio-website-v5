@@ -7,8 +7,8 @@ import { INavbarListItemProps } from "./Navbar.types";
 // Functions
 const Navbar = () => {
   return (
-    <nav className="default-shadow fixed z-[99] w-full bg-white py-6">
-      <div className="page-width flex items-center justify-between">
+    <nav className="default-shadow fixed z-[99] w-full bg-black py-6 text-white">
+      <div className="navbar-width flex items-center justify-between">
         <section>
           <Link href="/">
             <h3 className="hidden md:block">Joeri Breedveld</h3>
