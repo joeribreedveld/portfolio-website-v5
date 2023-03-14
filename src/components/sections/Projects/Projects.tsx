@@ -1,7 +1,8 @@
 // Imports
 import Image from "next/image";
-import { IProjectProps } from "./Projects.types";
+import { IProjectProps, TProjectType } from "./Projects.types";
 import Link from "next/link";
+import projects from "../../../../public/json/projects.json";
 
 // Functions
 const Projects = () => {
@@ -16,8 +17,10 @@ const Projects = () => {
           </Link>
         </section>
         <section className="w-full">
-          <ul className="grid gap-4 md:grid-cols-3">
-            <p>Under construction</p>
+          <ul className="grid gap-4 gap-y-16 md:grid-cols-3">
+            {projects.map((project: TProjectType, index: number) => {
+              return <Project key={index} {...project} />;
+            })}
           </ul>
         </section>
       </div>
@@ -26,18 +29,33 @@ const Projects = () => {
 };
 
 const Project = ({
-  emoji,
   title,
+  img,
+  intro,
   description,
-  tags,
-  date,
-  link,
   github,
-  website,
+  live,
+  skills,
+  date,
+  madeat,
+  slug,
 }: IProjectProps) => {
   return (
-    <li className="relative aspect-square w-full">
-      <Image src={"/images/about.jpg"} layout="fill" alt="Template image" />
+    <li className="flex w-full flex-col gap-4">
+      <div className="relative aspect-square w-full">
+        <Image src={img} layout="fill" alt={title} className="object-cover" />
+      </div>
+      <h4>{title}</h4>
+      <ul className="flex flex-wrap gap-2">
+        {skills.map((skill: string, index: number) => {
+          return (
+            <li key={index}>
+              <p className="text-gray-500">{skill}</p>
+            </li>
+          );
+        })}
+      </ul>
+      <p>{intro}</p>
     </li>
   );
 };
