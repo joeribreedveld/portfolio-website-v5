@@ -12,7 +12,14 @@ const Navbar = () => {
     >
       <div className="navbar-width flex items-center justify-between">
         <section>
-          <Link href="/">
+          <Link
+            to="hero"
+            className="hover:cursor-pointer"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             <h3 className="hidden md:block">Joeri Breedveld</h3>
             <h3 className="md:hidden">
               J<span className="underline">B</span>

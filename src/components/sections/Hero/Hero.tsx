@@ -26,7 +26,7 @@ const Hero = () => {
             offset={-70}
             duration={500}
           >
-            -> Get to know me
+            {"-> Get to know me"}
           </Link>
         </section>
       </section>
