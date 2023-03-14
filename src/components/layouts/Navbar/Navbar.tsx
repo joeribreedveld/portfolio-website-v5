@@ -20,7 +20,7 @@ const Navbar = () => {
             duration={500}
           >
             <h3 className="hidden md:block">Joeri Breedveld</h3>
-            <h3 className="md:hidden">Joeri Breedveld</h3>
+            <h4 className="md:hidden">Joeri Breedveld</h4>
           </Link>
         </section>
         <section className="hidden md:block">
