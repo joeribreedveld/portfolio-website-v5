@@ -23,9 +23,7 @@ const Navbar = () => {
             <h3 className="hidden md:block">
               Joeri Breedveld (site under construction)
             </h3>
-            <h3 className="md:hidden">
-              J<span className="underline">B</span>
-            </h3>
+            <h3 className="md:hidden">Joeri Breedveld</h3>
           </Link>
         </section>
         <section className="hidden md:block">
