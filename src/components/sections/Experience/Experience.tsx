@@ -10,11 +10,12 @@ const Experience = () => {
         <h2>Experience</h2>
         <Link
           href="https://www.linkedin.com/in/joeribreedveld/"
-          className="text-gray-500 underline"
+          className="flex gap-4"
           target="_blank"
           rel="noopener noreferrer"
         >
-          View LinkedIn
+          <span>{"->"}</span>
+          <span className="underline">View LinkedIn</span>
         </Link>
       </section>
       <section className="page-width flex flex-col gap-16 md:flex-row md:gap-32">

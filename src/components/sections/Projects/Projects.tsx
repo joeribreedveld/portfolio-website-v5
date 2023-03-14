@@ -1,7 +1,7 @@
 // Imports
-import Link from "next/link";
 import Image from "next/image";
 import { IProjectProps } from "./Projects.types";
+import Link from "next/link";
 
 // Functions
 const Projects = () => {
@@ -10,8 +10,9 @@ const Projects = () => {
       <div className="page-width flex w-full flex-col gap-16">
         <section className="flex flex-col gap-4">
           <h2>Projects</h2>
-          <Link className="text-gray-500 underline" href="#projects">
-            View project archive
+          <Link className="flex gap-4" href="#projects">
+            <span>{"->"}</span>
+            <span className="underline">View projects archive</span>
           </Link>
         </section>
         <section className="w-full">
