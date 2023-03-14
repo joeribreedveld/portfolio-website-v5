@@ -22,11 +22,11 @@
     }
 
     h2 {
-        @apply text-2xl
+        @apply md:text-2xl text-xl
     }
 
     h1 {
-        @apply text-4xl
+        @apply md:text-4xl text-2xl
     }
 
     body {

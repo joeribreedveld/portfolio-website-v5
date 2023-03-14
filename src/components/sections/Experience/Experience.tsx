@@ -17,7 +17,7 @@ const Experience = () => {
           View LinkedIn
         </Link>
       </section>
-      <section className="page-width flex gap-32">
+      <section className="page-width flex flex-col gap-16 md:flex-row md:gap-32">
         <section className="flex flex-col gap-6">
           <h3>Work</h3>
           <ul className="flex flex-col gap-6">
