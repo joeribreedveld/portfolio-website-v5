@@ -12,8 +12,13 @@ const CustomLink = ({
   variant,
 }: ICustomLinkProps) => {
   return (
-    <Link href={href} rel={rel} className={`${className ? className : ""} ${"flex gap-4"}`} target={target}>
-        <span>-></span>
+    <Link
+      href={href}
+      rel={rel}
+      className={`${className ? className : ""} ${"flex gap-4"}`}
+      target={target}
+    >
+      <span>{"->"}</span>
       <p className="underline">{children}</p>
     </Link>
   );
