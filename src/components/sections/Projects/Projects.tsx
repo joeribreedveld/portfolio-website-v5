@@ -42,7 +42,7 @@ const Project = ({
 }: IProjectProps) => {
   return (
     <li className="flex w-full flex-col gap-4">
-      <div className="relative aspect-square w-full">
+      <div className="relative aspect-[4/3] w-full">
         <Image src={img} layout="fill" alt={title} className="object-cover" />
       </div>
       <h4>{title}</h4>
