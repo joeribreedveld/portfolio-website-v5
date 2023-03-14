@@ -1,10 +1,11 @@
 // Imports
 import CustomLink from "../../common/CustomLink/CustomLink";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 // Functions
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="hero">
       <div className="absolute top-0 left-0 z-10 h-full w-full bg-black opacity-60"></div>
       <div className="absolute top-0 left-0 z-10 h-full w-full backdrop-blur-md backdrop-filter"></div>
       <div className="absolute top-0 left-0 z-0 h-full w-full bg-[url('/images/hero-background.jpg')] bg-cover"></div>
@@ -17,9 +18,16 @@ const Hero = () => {
             I like to build clean and structured websites for the ultimate user
             experience.
           </p>
-          <CustomLink href="/contact" variant="arrow">
-            Get to know me
-          </CustomLink>
+          <Link
+            className="hover:cursor-pointer hover:underline"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            -> Get to know me
+          </Link>
         </section>
       </section>
     </div>

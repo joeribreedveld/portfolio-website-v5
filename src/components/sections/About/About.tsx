@@ -6,7 +6,7 @@ import { IAboutListItemProps } from "./About.types";
 // Functions
 const About = () => {
   return (
-    <section className="section-py flex">
+    <section className="section-py flex" id="about">
       <div className="page-width flex flex-col gap-16 md:flex-row">
         <section className="flex flex-col gap-8">
           <h2>About</h2>

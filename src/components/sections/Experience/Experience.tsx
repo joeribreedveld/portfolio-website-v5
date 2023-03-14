@@ -5,10 +5,15 @@ import Link from "next/link";
 // Functions
 const Experience = () => {
   return (
-    <section className="section-py flex flex-col gap-16">
+    <section className="section-py flex flex-col gap-16" id="experience">
       <section className="page-width flex flex-col gap-4">
         <h2>Experience</h2>
-        <Link href="/" className="text-gray-500 underline">
+        <Link
+          href="https://www.linkedin.com/in/joeribreedveld/"
+          className="text-gray-500 underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           View LinkedIn
         </Link>
       </section>

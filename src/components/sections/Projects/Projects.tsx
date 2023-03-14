@@ -6,70 +6,17 @@ import { IProjectProps } from "./Projects.types";
 // Functions
 const Projects = () => {
   return (
-    <section className="section-py flex bg-bgSecondary">
+    <section className="section-py flex bg-bgSecondary" id="projects">
       <div className="page-width flex w-full flex-col gap-16">
         <section className="flex flex-col gap-4">
           <h2>Projects</h2>
-          <Link className="text-gray-500 underline" href="/projects">
+          <Link className="text-gray-500 underline" href="#projects">
             View project archive
           </Link>
         </section>
         <section className="w-full">
           <ul className="grid gap-4 md:grid-cols-3">
-            <Project
-              title="Project Title"
-              description="Project description lorem ipsum"
-              tags={["tag1", "tag2"]}
-              date="2021-01-01"
-              link="https://example.com"
-              github="https://github.com"
-              website="https://example.com"
-            />
-            <Project
-              title="Project Title"
-              description="Project description lorem ipsum"
-              tags={["tag1", "tag2"]}
-              date="2021-01-01"
-              link="https://example.com"
-              github="https://github.com"
-              website="https://example.com"
-            />
-            <Project
-              title="Project Title"
-              description="Project description lorem ipsum"
-              tags={["tag1", "tag2"]}
-              date="2021-01-01"
-              link="https://example.com"
-              github="https://github.com"
-              website="https://example.com"
-            />
-            <Project
-              title="Project Title"
-              description="Project description lorem ipsum"
-              tags={["tag1", "tag2"]}
-              date="2021-01-01"
-              link="https://example.com"
-              github="https://github.com"
-              website="https://example.com"
-            />
-            <Project
-              title="Project Title"
-              description="Project description lorem ipsum"
-              tags={["tag1", "tag2"]}
-              date="2021-01-01"
-              link="https://example.com"
-              github="https://github.com"
-              website="https://example.com"
-            />
-            <Project
-              title="Project Title"
-              description="Project description awdawdawdawdawlorem ipsum"
-              tags={["tag1", "tag2"]}
-              date="2021-01-01"
-              link="https://example.com"
-              github="https://github.com"
-              website="https://example.com"
-            />
+            <p>Under construction</p>
           </ul>
         </section>
       </div>
