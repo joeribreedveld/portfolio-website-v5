@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section className="section-py flex bg-bgSecondary" id="projects">
       <div className="page-width flex w-full flex-col gap-16">
-        <section className="flex flex-col gap-4">
+        <section className="flex flex-col gap-8">
           <h2>Projects</h2>
           <Link className="flex gap-4" href="#projects">
             <span>{"->"}</span>
