@@ -50,7 +50,7 @@ const Project = ({
         {skills.map((skill: string, index: number) => {
           return (
             <li key={index}>
-              <p className="text-gray-500">{skill}</p>
+              <p className="text-sm text-gray-500">{skill}</p>
             </li>
           );
         })}

@@ -7,7 +7,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
   return (
     <nav
-      className="default-shadow fixed z-[99] w-full bg-black py-6 text-white"
+      className="default-shadow absolute z-[99] w-full bg-black py-6 text-white"
       id="navbar"
     >
       <div className="navbar-width flex items-center justify-between">
@@ -17,13 +17,10 @@ const Navbar = () => {
             className="hover:cursor-pointer"
             spy={true}
             smooth={true}
-            offset={-70}
             duration={500}
           >
-            <h3 className="hidden md:block">
-              Joeri Breedveld (site under construction)
-            </h3>
-            <h3 className="md:hidden">Joeri Breedveld (under construction)</h3>
+            <h3 className="hidden md:block">Joeri Breedveld</h3>
+            <h3 className="md:hidden">Joeri Breedveld</h3>
           </Link>
         </section>
         <section className="hidden md:block">
@@ -48,7 +45,6 @@ const NavbarListItem = ({ to, title }: INavbarListItemProps) => {
         to={to}
         spy={true}
         smooth={true}
-        offset={-70}
         duration={500}
       >
         {title}

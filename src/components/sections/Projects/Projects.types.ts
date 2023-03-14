@@ -4,7 +4,7 @@ interface IProjectProps {
   title: string;
   img: string;
   intro: string;
-  description: string;
+  description?: string;
   github: string;
   live: string;
   skills: string[];
@@ -18,7 +18,7 @@ type TProjectType = {
   title: string;
   img: string;
   intro: string;
-  description: string;
+  description?: string;
   github: string;
   live: string;
   skills: string[];

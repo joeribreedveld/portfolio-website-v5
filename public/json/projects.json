@@ -198,7 +198,7 @@
     "intro": "GraphQL MERN stack project from Traversy Media.",
     "github": "https://github.com/joeribreedveld/traversy-graphql-mern",
     "live": "",
-    "skills": ["GraphQL", "MongoDB", "Express.js", "React", "Node.js"],
+    "skills": ["GraphQL", "React", "Node.js"],
     "date": "10-2022",
     "madeat": "-",
     "slug": "traversygraphql"

@@ -20,7 +20,6 @@ const Hero = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-70}
             duration={500}
           >
             <span>{"->"}</span>
