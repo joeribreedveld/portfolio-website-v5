@@ -20,7 +20,9 @@ const Navbar = () => {
             offset={-70}
             duration={500}
           >
-            <h3 className="hidden md:block">Joeri Breedveld</h3>
+            <h3 className="hidden md:block">
+              Joeri Breedveld (site under construction)
+            </h3>
             <h3 className="md:hidden">
               J<span className="underline">B</span>
             </h3>
